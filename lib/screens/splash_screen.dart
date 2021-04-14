@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
     FirebaseUser user = await FirebaseAuth.instance.currentUser();
     if (user != null) {
       if (user.isEmailVerified) {
-        Provider.of<UserData>(context).currentUserId = user.uid.toString();
+        Provider.of<UserData>(context, listen: false).currentUserId = user.uid.toString();
         currentUserId = user.uid.toString();
         return true;
       } else {
