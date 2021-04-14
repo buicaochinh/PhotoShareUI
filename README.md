@@ -18,7 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 BTL Thiết kế giao diện người dùng HK2 2020-2021
 
 ## Nhóm 6
-***
 ### Thành viên
 
 1. Bùi Cao Chinh - 18020233
