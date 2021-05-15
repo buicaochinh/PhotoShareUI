@@ -7,8 +7,6 @@ import 'package:instagram_v2/models/user_data.dart';
 import 'package:instagram_v2/models/user_model.dart';
 import 'package:instagram_v2/screens/chat_screen.dart';
 import 'package:instagram_v2/screens/edit_profile_screen.dart';
-import 'package:instagram_v2/screens/login_screen.dart';
-import 'package:instagram_v2/services/auth_service.dart';
 import 'package:instagram_v2/services/database_service.dart';
 import 'package:instagram_v2/utilities/constants.dart';
 import 'package:instagram_v2/widgets/post_view.dart';

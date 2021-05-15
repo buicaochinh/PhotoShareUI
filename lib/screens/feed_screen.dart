@@ -73,7 +73,7 @@ class _FeedScreenState extends State<FeedScreen> {
       appBar: AppBar(
         backgroundColor: themeStyle.primaryBackgroundColor,
         title: Text(
-          'Photogram',
+          'PhotoShare',
           style: TextStyle(
             color: themeStyle.primaryTextColor,
             fontFamily: 'Billabong',

@@ -175,7 +175,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    themeStyle = Provider.of<UserData>(context);
+    themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
       key: _scaffoldKey,
       backgroundColor: themeStyle.primaryBackgroundColor,

@@ -69,7 +69,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
         iconTheme: IconThemeData(color: themeStyle.primaryIconColor),
         backgroundColor: themeStyle.primaryBackgroundColor,
         title: Text(
-          'Photogram',
+          'PhotoShare',
           style: TextStyle(
             color: themeStyle.primaryTextColor,
             fontFamily: 'Billabong',

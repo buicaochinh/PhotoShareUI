@@ -136,7 +136,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
         imageUrl: imageUrl,
         caption: _caption,
         likeCount: 0,
-        authorId: Provider.of<UserData>(context).currentUserId,
+        authorId: Provider.of<UserData>(context, listen: false).currentUserId,
         timestamp: Timestamp.fromDate(DateTime.now()),
         location: _locationController.text,
         enableDownload: _enableDownload,

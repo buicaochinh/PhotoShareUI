@@ -61,7 +61,7 @@ class AuthService {
       FirebaseUser user = authResult.user;
       if (user != null) {
         if (user.isEmailVerified) {
-          Provider.of<UserData>(context).currentUserId = user.uid;
+          Provider.of<UserData>(context, listen: false).currentUserId = user.uid;
           Navigator.of(context).pushAndRemoveUntil(
               MaterialPageRoute(builder: (_) => HomeScreen(user.uid)),
               (Route<dynamic> route) => false);
@@ -113,7 +113,7 @@ class AuthService {
           });
           DatabaseService.followUser(currentUserId: user.uid, userId: user.uid);
         }
-        Provider.of<UserData>(context).currentUserId = user.uid;
+        Provider.of<UserData>(context, listen: true).currentUserId = user.uid;
         Navigator.of(context).pushAndRemoveUntil(
             MaterialPageRoute(builder: (_) => HomeScreen(user.uid)),
             (Route<dynamic> route) => false);
