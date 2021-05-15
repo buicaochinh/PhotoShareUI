@@ -1,4 +1,4 @@
-# instagram_v2
+# PhotoShare
 
 A new Flutter application.
 
@@ -14,4 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-"# PhotoShareUI" 
+
+BTL Thiết kế giao diện người dùng HK2 2020-2021
+
+## Nhóm 6
+### Thành viên
+
+1. Bùi Cao Chinh - 18020233
+2. Nguyễn Hoàng Long - 18020805
+3. Lê Văn Đức - 18020352
+4. Phùng Tiến Hưng - 18020611
