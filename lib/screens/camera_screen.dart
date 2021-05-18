@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:math';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/cupertino.dart';
@@ -8,7 +7,6 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:instagram_v2/screens/gallery_screen.dart';
 import 'package:instagram_v2/screens/preview_photo.dart';
 import 'package:media_gallery/media_gallery.dart';
-import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 
 class CameraScreen extends StatefulWidget {

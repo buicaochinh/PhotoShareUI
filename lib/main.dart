@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       create: (context) => UserData(),
       child: MaterialApp(
         navigatorKey: navigatorKey,
-        title: 'PhotoShare',
+        title: 'Photogram',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             primaryIconTheme: Theme.of(context).primaryIconTheme.copyWith(

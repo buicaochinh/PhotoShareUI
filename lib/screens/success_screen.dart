@@ -64,7 +64,7 @@ class SuccessScreen extends StatelessWidget {
                         blurRadius: 20,
                         offset: Offset(0, 10))
                   ]),
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () {
                   type == 0
                       ? Navigator.pushReplacement(context,

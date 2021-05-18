@@ -1,16 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:instagram_v2/main.dart';
 import 'package:instagram_v2/models/user_data.dart';
-import 'package:instagram_v2/models/user_model.dart';
-import 'package:instagram_v2/screens/chat_screen.dart';
 import 'package:instagram_v2/screens/home_screen.dart';
 import 'package:instagram_v2/screens/login_screen.dart';
-import 'package:instagram_v2/services/database_service.dart';
 import 'package:provider/provider.dart';
 import 'dart:async';
 

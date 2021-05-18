@@ -5,16 +5,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:instagram_v2/models/call_model.dart';
 import 'package:instagram_v2/models/message_model.dart';
 import 'package:instagram_v2/models/user_data.dart';
 import 'package:instagram_v2/models/user_model.dart';
-import 'package:instagram_v2/services/call_service.dart';
 import 'package:instagram_v2/services/database_service.dart';
 import 'package:instagram_v2/services/photo_service.dart';
 import 'package:instagram_v2/services/storage_service.dart';
 import 'package:instagram_v2/utilities/constants.dart';
-import 'package:instagram_v2/utilities/permisstions.dart';
 import 'package:provider/provider.dart';
 
 class ChatScreen extends StatefulWidget {

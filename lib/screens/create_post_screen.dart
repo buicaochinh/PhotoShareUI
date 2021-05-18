@@ -153,7 +153,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
         _enableDownload = false;
       });
     } else {
-      Scaffold.of(context).showSnackBar(SnackBar(
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text(
         _image == null
             ? 'Please add photo for this post'

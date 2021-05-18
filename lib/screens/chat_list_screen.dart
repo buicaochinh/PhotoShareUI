@@ -1,12 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:instagram_v2/models/call_model.dart';
 import 'package:instagram_v2/models/message_model.dart';
 import 'package:instagram_v2/models/user_data.dart';
 import 'package:instagram_v2/models/user_model.dart';
 import 'package:instagram_v2/screens/chat_screen.dart';
-import 'package:instagram_v2/services/call_service.dart';
 import 'package:instagram_v2/services/database_service.dart';
 import 'package:instagram_v2/utilities/constants.dart';
 import 'package:intl/intl.dart';

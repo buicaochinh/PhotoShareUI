@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               blurRadius: 20,
                               offset: Offset(0, 10))
                         ]),
-                    child: FlatButton(
+                    child: TextButton(
                       onPressed: () => _sendEmailForgotPass(context),
                       child: Center(
                         child: Text(
@@ -404,7 +404,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       blurRadius: 20,
                                       offset: Offset(0, 10))
                                 ]),
-                            child: FlatButton(
+                            child: TextButton(
                               onPressed: () => _submit(context),
                               child: Center(
                                 child: Text(
@@ -473,7 +473,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
                                 border: Border.all(color: Colors.grey)),
-                            child: FlatButton(
+                            child: TextButton(
                               onPressed: () => AuthService.loginGoogle(context),
                               child: Row(
                                 children: <Widget>[
@@ -615,7 +615,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                                         blurRadius: 20,
                                                         offset: Offset(0, 10))
                                                   ]),
-                                              child: FlatButton(
+                                              child: TextButton(
                                                 onPressed: () => _okError(),
                                                 child: Center(
                                                   child: Text(
