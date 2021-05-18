@@ -15,7 +15,7 @@ class SuccessScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final themeStyle = Provider.of<UserData>(context);
+    final themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
       backgroundColor: themeStyle.primaryBackgroundColor,
       body: Stack(

@@ -84,7 +84,7 @@ class _SignupScreenState extends State<SignupScreen> {
   @override
   Widget build(BuildContext context) {
     final _width = MediaQuery.of(context).size.width;
-    themeStyle = Provider.of<UserData>(context);
+    themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
       backgroundColor: themeStyle.primaryBackgroundColor,
       body: Stack(

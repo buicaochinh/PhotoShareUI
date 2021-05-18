@@ -113,7 +113,7 @@ class AuthService {
           });
           DatabaseService.followUser(currentUserId: user.uid, userId: user.uid);
         }
-        Provider.of<UserData>(context, listen: true).currentUserId = user.uid;
+        Provider.of<UserData>(context, listen: false).currentUserId = user.uid;
         Navigator.of(context).pushAndRemoveUntil(
             MaterialPageRoute(builder: (_) => HomeScreen(user.uid)),
             (Route<dynamic> route) => false);

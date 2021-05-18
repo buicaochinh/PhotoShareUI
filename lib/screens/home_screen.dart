@@ -201,7 +201,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    final themeStyle = Provider.of<UserData>(context);
+    final themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
         key: key,
         body: PageView(

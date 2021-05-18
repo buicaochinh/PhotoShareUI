@@ -29,7 +29,7 @@ class _PreviewPhotoScreenState extends State<PreviewPhotoScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final themeStyle = Provider.of<UserData>(context);
+    final themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
         backgroundColor: themeStyle.primaryBackgroundColor,
         appBar: AppBar(

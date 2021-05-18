@@ -62,7 +62,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
 
   @override
   Widget build(BuildContext context) {
-    themeStyle = Provider.of<UserData>(context);
+    themeStyle = Provider.of<UserData>(context, listen: false);
     return Scaffold(
       backgroundColor: themeStyle.primaryBackgroundColor,
       appBar: AppBar(
