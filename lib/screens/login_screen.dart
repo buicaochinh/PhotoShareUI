@@ -526,7 +526,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   color: themeStyle.primaryBackgroundColor),
                               child: Padding(
                                 padding: const EdgeInsets.only(
-                                    left: 20.0, right: 20, bottom: 15, top: 15),
+                                    left: 20.0, right: 20, bottom: 16, top: 16),
                                 child: Column(
                                   children: <Widget>[
                                     SizedBox(
@@ -544,7 +544,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       'Log in!\n Please wait...',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 15,
                                           color: themeStyle.primaryTextColor),
                                     ))
                                   ],

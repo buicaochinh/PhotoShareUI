@@ -187,7 +187,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return user.id == Provider.of<UserData>(context).currentUserId
         ? Container()
         : Container(
-            width: 150,
+            width: 155,
             height: 40,
             decoration: BoxDecoration(
                 color: themeStyle.primaryBackgroundColor,

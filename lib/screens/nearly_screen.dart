@@ -92,7 +92,7 @@ class _NearlyScreenState extends State<NearlyScreen> {
 
   @override
   Widget build(BuildContext context) {
-    themeStyle = Provider.of<UserData>(context, listen: false);
+    themeStyle = Provider.of<UserData>(context);
     return _isLoading
         ? Center(
             child: CircularProgressIndicator(
