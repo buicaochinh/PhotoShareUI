@@ -397,7 +397,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
                               'Uploading!\n Please wait....',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 15,
                                   color: themeStyle.primaryTextColor),
                             ))
                           ],

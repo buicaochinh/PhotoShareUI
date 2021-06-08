@@ -384,7 +384,7 @@ class _UpdatePostScreenState extends State<UpdatePostScreen> {
                               'Updating!\n Please wait....',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 15,
                                   color: themeStyle.primaryTextColor),
                             ))
                           ],
